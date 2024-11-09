@@ -1,0 +1,48 @@
+header {
+  background-color: transparent;
+  color: #333;
+  padding: 40px 80px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+header h1 a {
+  color: #333;
+}
+header h1:hover {
+  color: #766cff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav a {
+  color: #fff;
+
+  font-weight: bold;
+  color: #333;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #766cff;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}

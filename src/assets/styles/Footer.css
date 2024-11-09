@@ -1,0 +1,33 @@
+footer {
+  background-color: #f9f9f9;
+  color: #555;
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer a {
+  color: #ddd;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer button {
+  background-color: #5a55a0;
+  padding: 10px 40px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px 0px;
+  text-align: center;
+  font-size: 18px;
+}
