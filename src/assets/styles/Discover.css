@@ -39,12 +39,6 @@
   box-shadow: 0 4px 8px rgb(103, 103, 103);
 }
 
-.discover-card h3 {
-  color: #333;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
 .discover-card p {
   color: #666;
   margin: 5px 0;
@@ -86,4 +80,26 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+}
+.load-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  outline: none;
+  color: #fff;
+  background-color: #007bff;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+  width: auto;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.load-more-button:hover {
+  background-color: #0056b3;
 }

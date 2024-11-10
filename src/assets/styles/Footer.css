@@ -20,7 +20,7 @@ footer a:hover {
 }
 
 footer button {
-  background-color: #5a55a0;
+  background-color: #007bff;
   padding: 10px 40px;
   border: none;
   outline: none;
@@ -30,4 +30,9 @@ footer button {
   margin: 20px 0px;
   text-align: center;
   font-size: 18px;
+  width: auto;
+}
+
+footer button:hover {
+  background-color: #0056b3;
 }
