@@ -119,6 +119,7 @@ const HotelBooking = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleInputChange}
+                required
               />
             </div>
             <div className="form-group">
@@ -128,6 +129,7 @@ const HotelBooking = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleInputChange}
+                required
               />
             </div>
           </div>
@@ -139,6 +141,7 @@ const HotelBooking = () => {
                 placeholder="+91-7666483933"
                 value={formData.phone}
                 onChange={handleInputChange}
+                required
               />
             </div>
             <div className="form-group details">

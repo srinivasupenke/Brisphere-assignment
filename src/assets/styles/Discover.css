@@ -48,6 +48,13 @@
   color: #333;
 }
 
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+}
+
 @media (max-width: 1024px) {
   .discover-container {
     display: grid;

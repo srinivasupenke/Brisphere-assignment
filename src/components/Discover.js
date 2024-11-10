@@ -1,6 +1,7 @@
 // src/Discover.js
 import React, { useEffect, useState } from "react";
 import "../../src/assets/styles/Discover.css";
+import { Circles } from "react-loader-spinner";
 
 const Discover = () => {
   const [users, setUsers] = useState([]);
@@ -27,7 +28,16 @@ const Discover = () => {
   };
 
   if (loading) {
-    return <p>Loading...</p>;
+    return (
+      <p className="loader">
+        <Circles
+          height="80"
+          width="80"
+          color="#4fa94d"
+          ariaLabel="circles-loading"
+        />
+      </p>
+    );
   }
 
   if (error) {
